@@ -1,8 +1,111 @@
 * {
     margin: 0;
     padding: 0;
+    font-family: "Roboto", sans-serif;
+    font-weight: 500;
+    font-style: normal;
 }
 
-p {
-    background-color: red;
+.wrapper {
+    height: 100vh;
+    width: 100%;
+    background: rgb(235, 125, 135);
+    background: linear-gradient(27deg, rgba(235, 125, 135, 1) 0%, rgba(200, 155, 255, 1) 74%);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.container {
+    height: 70vh;
+    width: 50%;
+    margin-top: 3rem;
+    background-color: #ffffff;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.5);
+}
+
+.image {
+    height: 10rem;
+    width: 10rem;
+    border-radius: 50%;
+    position: relative;
+    top: -5rem;
+    left: 40%;
+    padding: 0.1rem;
+    background-color: wheat;
+    background: url("./bean.jpg") no-repeat;
+    background-size: cover;
+    border: 5px solid #f5f5f5;
+}
+
+.name {
+    position: relative;
+    top: 11rem;
+    left: 1.7rem;
+    font-size: 1.5rem;
+    color: #bf5ac9;
+    font-weight: 600;
+}
+
+.followers{
+    margin: 1rem 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.followers>div {
+    height: 4rem;
+    font-size: 1.3rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    color: #959195;
+}
+
+.icons {
+    margin-top: 4rem;
+    width: 70%;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    margin-left: 8rem;
+}
+
+.icons>img {
+    height: 2.5rem;
+    width: 2.5rem;
+    padding: 1rem 0rem 1rem 0;
+}
+
+.buttons {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 1rem;
+}
+
+button {
+    border: none;
+    height: fit-content;
+    width: fit-content;
+    background-color: #bf5ac9;
+    padding: 0.7rem 1.3rem;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    color: white;
+    font-size: 1.2rem;
+    border-radius: 30px;
+    margin-left: 3rem;
+}
+
+.message {
+    background-color: #c89bff;
+}
+
+.follow {
+    background-color: #eb7d87;
 }
